@@ -1,18 +1,13 @@
-# Build stage
+# Etapa de build con SDK 7.0
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-
-COPY *.sln ./
-COPY MyJwtApi/*.csproj ./MyJwtApi/
-RUN dotnet restore
-
 COPY . .
-RUN dotnet publish -c Release -o /app/publish --no-restore
+RUN dotnet restore
+RUN dotnet publish -c Release -o /app/publish
 
-# Runtime stage
+# Etapa runtime con ASP.NET Core Runtime 7.0
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
-
 COPY --from=build /app/publish .
 
 ENV ASPNETCORE_URLS=http://+:8080
