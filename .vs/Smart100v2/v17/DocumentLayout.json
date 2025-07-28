@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57CACAB0-2AD0-47ED-92B0-6E530AFB6183}|Smart100v2.csproj|c:\\users\\aloba\\onedrive\\documentos\\mywebsites\\repo\\smart100v2\\backend\\business\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CACAB0-2AD0-47ED-92B0-6E530AFB6183}|Smart100v2.csproj|solutionrelative:business\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CACAB0-2AD0-47ED-92B0-6E530AFB6183}|Smart100v2.csproj|c:\\users\\aloba\\onedrive\\documentos\\mywebsites\\repo\\smart100v2\\backend\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CACAB0-2AD0-47ED-92B0-6E530AFB6183}|Smart100v2.csproj|solutionrelative:dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CACAB0-2AD0-47ED-92B0-6E530AFB6183}|Smart100v2.csproj|c:\\users\\aloba\\onedrive\\documentos\\mywebsites\\repo\\smart100v2\\backend\\business\\barcode\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CACAB0-2AD0-47ED-92B0-6E530AFB6183}|Smart100v2.csproj|solutionrelative:business\\barcode\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QR.cs",
+              "DocumentMoniker": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\Business\\Barcode\\QR.cs",
+              "RelativeDocumentMoniker": "Business\\Barcode\\QR.cs",
+              "ToolTip": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\Business\\Barcode\\QR.cs",
+              "RelativeToolTip": "Business\\Barcode\\QR.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T20:35:15.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\Business\\Invoice.cs",
+              "RelativeDocumentMoniker": "Business\\Invoice.cs",
+              "ToolTip": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\Business\\Invoice.cs",
+              "RelativeToolTip": "Business\\Invoice.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAgwHAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:23:32.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\DTOs\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\InvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\aloba\\OneDrive\\Documentos\\MyWebSites\\repo\\Smart100V2\\Backend\\DTOs\\InvoiceDTO.cs",
+              "RelativeToolTip": "DTOs\\InvoiceDTO.cs",
+              "ViewState": "AQIAAMUAAABApjO0qBI8wNwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T05:31:49.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
