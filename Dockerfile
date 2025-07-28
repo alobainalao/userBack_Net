@@ -1,17 +1,16 @@
-# Etapa 1: build
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Etapa de construcción (build) con .NET 7.0 SDK
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-
 COPY . .
 RUN dotnet restore
 RUN dotnet publish -c Release -o /app/publish
 
-# Etapa 2: runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Etapa de ejecución con .NET 7.0 Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Escucha el puerto asignado por Render
-ENV ASPNETCORE_URLS=http://+:$PORT
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
 
 ENTRYPOINT ["dotnet", "MyJwtApi.dll"]
